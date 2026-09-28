@@ -1,0 +1,103 @@
+{
+  "status": "exact finite continuum corridors; analytic tails not included",
+  "radius": 50000,
+  "bins_per_unit": 100,
+  "pairs": 981740308,
+  "seconds": 24.421999999991385,
+  "histogram_bytes": 40000008,
+  "corridors": [
+    {
+      "eta": "1/14",
+      "certified_start": "53599/50",
+      "certified_end": "50000",
+      "largest_q_for_subtraction": "13/15",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "eta": "1/19",
+      "certified_start": "216801/100",
+      "certified_end": "50000",
+      "largest_q_for_subtraction": "9/10",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    }
+  ],
+  "paired_deficit_certificates": [
+    {
+      "qmax": "4/5",
+      "all_smaller_positive_q": true,
+      "certified_start": "525/4",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "81/100",
+      "all_smaller_positive_q": true,
+      "certified_start": "13733/100",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "41/50",
+      "all_smaller_positive_q": true,
+      "certified_start": "725/4",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "83/100",
+      "all_smaller_positive_q": true,
+      "certified_start": "977/4",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "21/25",
+      "all_smaller_positive_q": true,
+      "certified_start": "977/4",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "17/20",
+      "all_smaller_positive_q": true,
+      "certified_start": "38427/100",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "43/50",
+      "all_smaller_positive_q": true,
+      "certified_start": "38427/100",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "7/8",
+      "all_smaller_positive_q": true,
+      "certified_start": "2317/4",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "9/10",
+      "all_smaller_positive_q": true,
+      "certified_start": "67111/50",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "23/25",
+      "all_smaller_positive_q": true,
+      "certified_start": "148571/50",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    },
+    {
+      "qmax": "19/20",
+      "all_smaller_positive_q": true,
+      "certified_start": "2212153/100",
+      "certified_end": "50000",
+      "tail_extension": "NOT included: use separately audited analytic discrepancy bound"
+    }
+  ]
+}
