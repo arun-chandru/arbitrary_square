@@ -1,0 +1,6599 @@
+{
+  "status": "PASS_FINITE_BAND",
+  "scope": "every angle and strictly interior position, q in [12/25,7/10]",
+  "tail": "existing corridor t>=201/q, q<=4/5",
+  "kappa_upper": "99/70",
+  "denominator": 64000,
+  "scale": 1099511627776,
+  "count_cap": 250000,
+  "intervals": 315,
+  "pairs": 17944637,
+  "repairs": 28,
+  "splits": 95,
+  "initial_missing": 28,
+  "max_index": 105989,
+  "unresolved": [],
+  "records": [
+    {
+      "interval": [
+        "12/25",
+        "481/1000"
+      ],
+      "kmax": 105989,
+      "references": [
+        {
+          "numerator": 30720,
+          "coefficient": 663761600400
+        },
+        {
+          "numerator": 30784,
+          "coefficient": 654486162478
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "481/1000",
+        "241/500"
+      ],
+      "kmax": 105417,
+      "references": [
+        {
+          "numerator": 30784,
+          "coefficient": 662929997500
+        },
+        {
+          "numerator": 30848,
+          "coefficient": 653633361231
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "241/500",
+        "483/1000"
+      ],
+      "kmax": 104849,
+      "references": [
+        {
+          "numerator": 30848,
+          "coefficient": 662096667492
+        },
+        {
+          "numerator": 30912,
+          "coefficient": 652778597178
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "483/1000",
+        "121/250"
+      ],
+      "kmax": 104284,
+      "references": [
+        {
+          "numerator": 30912,
+          "coefficient": 661261610375
+        },
+        {
+          "numerator": 30976,
+          "coefficient": 651921867477
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "121/250",
+        "97/200"
+      ],
+      "kmax": 103722,
+      "references": [
+        {
+          "numerator": 30976,
+          "coefficient": 660424826148
+        },
+        {
+          "numerator": 31040,
+          "coefficient": 651063169233
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "97/200",
+        "243/500"
+      ],
+      "kmax": 103164,
+      "references": [
+        {
+          "numerator": 31040,
+          "coefficient": 659586314814
+        },
+        {
+          "numerator": 31104,
+          "coefficient": 650202499497
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 519370523720
+        }
+      ]
+    },
+    {
+      "interval": [
+        "243/500",
+        "487/1000"
+      ],
+      "kmax": 102610,
+      "references": [
+        {
+          "numerator": 31104,
+          "coefficient": 658746076370
+        },
+        {
+          "numerator": 31168,
+          "coefficient": 649339855265
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 526866153280
+        }
+      ]
+    },
+    {
+      "interval": [
+        "487/1000",
+        "61/125"
+      ],
+      "kmax": 102059,
+      "references": [
+        {
+          "numerator": 31168,
+          "coefficient": 657904110817
+        },
+        {
+          "numerator": 31232,
+          "coefficient": 648475233475
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 534498242224
+        }
+      ]
+    },
+    {
+      "interval": [
+        "61/125",
+        "489/1000"
+      ],
+      "kmax": 101511,
+      "references": [
+        {
+          "numerator": 31232,
+          "coefficient": 657060418156
+        },
+        {
+          "numerator": 31296,
+          "coefficient": 647608631007
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 542269885774
+        }
+      ]
+    },
+    {
+      "interval": [
+        "489/1000",
+        "49/100"
+      ],
+      "kmax": 100967,
+      "references": [
+        {
+          "numerator": 31296,
+          "coefficient": 656214998385
+        },
+        {
+          "numerator": 31360,
+          "coefficient": 646740044682
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 550184263829
+        }
+      ]
+    },
+    {
+      "interval": [
+        "49/100",
+        "491/1000"
+      ],
+      "kmax": 100426,
+      "references": [
+        {
+          "numerator": 31360,
+          "coefficient": 655367851506
+        },
+        {
+          "numerator": 31424,
+          "coefficient": 645869471262
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 558244643685
+        }
+      ]
+    },
+    {
+      "interval": [
+        "491/1000",
+        "123/250"
+      ],
+      "kmax": 99888,
+      "references": [
+        {
+          "numerator": 31424,
+          "coefficient": 654518977518
+        },
+        {
+          "numerator": 31488,
+          "coefficient": 644996907443
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 566454382852
+        }
+      ]
+    },
+    {
+      "interval": [
+        "123/250",
+        "493/1000"
+      ],
+      "kmax": 99353,
+      "references": [
+        {
+          "numerator": 31488,
+          "coefficient": 653668376422
+        },
+        {
+          "numerator": 31552,
+          "coefficient": 644122349861
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 574816931984
+        }
+      ]
+    },
+    {
+      "interval": [
+        "493/1000",
+        "247/500"
+      ],
+      "kmax": 98822,
+      "references": [
+        {
+          "numerator": 31552,
+          "coefficient": 652816048216
+        },
+        {
+          "numerator": 31616,
+          "coefficient": 643245795085
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 583335837905
+        }
+      ]
+    },
+    {
+      "interval": [
+        "247/500",
+        "99/200"
+      ],
+      "kmax": 98294,
+      "references": [
+        {
+          "numerator": 31616,
+          "coefficient": 651961992902
+        },
+        {
+          "numerator": 31680,
+          "coefficient": 642367239620
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 592014746764
+        }
+      ]
+    },
+    {
+      "interval": [
+        "99/200",
+        "62/125"
+      ],
+      "kmax": 97769,
+      "references": [
+        {
+          "numerator": 31680,
+          "coefficient": 651106210479
+        },
+        {
+          "numerator": 31744,
+          "coefficient": 641486679900
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 600857407292
+        }
+      ]
+    },
+    {
+      "interval": [
+        "62/125",
+        "497/1000"
+      ],
+      "kmax": 97248,
+      "references": [
+        {
+          "numerator": 31744,
+          "coefficient": 650248700946
+        },
+        {
+          "numerator": 31808,
+          "coefficient": 640604112291
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 609867674198
+        }
+      ]
+    },
+    {
+      "interval": [
+        "497/1000",
+        "249/500"
+      ],
+      "kmax": 96729,
+      "references": [
+        {
+          "numerator": 31808,
+          "coefficient": 649389464306
+        },
+        {
+          "numerator": 31872,
+          "coefficient": 639719533088
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 619049511684
+        }
+      ]
+    },
+    {
+      "interval": [
+        "249/500",
+        "499/1000"
+      ],
+      "kmax": 96214,
+      "references": [
+        {
+          "numerator": 31872,
+          "coefficient": 648528500556
+        },
+        {
+          "numerator": 31936,
+          "coefficient": 638832938514
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        3
+      ],
+      "repairs": [
+        {
+          "k": 3,
+          "reference": 32000,
+          "tau": 8,
+          "gap_index": 3,
+          "coefficient": 628406997095
+        }
+      ]
+    },
+    {
+      "interval": [
+        "499/1000",
+        "1/2"
+      ],
+      "kmax": 95701,
+      "references": [
+        {
+          "numerator": 31936,
+          "coefficient": 647665809697
+        },
+        {
+          "numerator": 32000,
+          "coefficient": 637944324714
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1/2",
+        "501/1000"
+      ],
+      "kmax": 95192,
+      "references": [
+        {
+          "numerator": 32000,
+          "coefficient": 646801391730
+        },
+        {
+          "numerator": 32064,
+          "coefficient": 637053687760
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "501/1000",
+        "251/500"
+      ],
+      "kmax": 94686,
+      "references": [
+        {
+          "numerator": 32064,
+          "coefficient": 645935246654
+        },
+        {
+          "numerator": 32128,
+          "coefficient": 636161023645
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "251/500",
+        "503/1000"
+      ],
+      "kmax": 94183,
+      "references": [
+        {
+          "numerator": 32128,
+          "coefficient": 645067374469
+        },
+        {
+          "numerator": 32192,
+          "coefficient": 635266328282
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "503/1000",
+        "63/125"
+      ],
+      "kmax": 93683,
+      "references": [
+        {
+          "numerator": 32192,
+          "coefficient": 644197775175
+        },
+        {
+          "numerator": 32256,
+          "coefficient": 634369597501
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "63/125",
+        "101/200"
+      ],
+      "kmax": 93185,
+      "references": [
+        {
+          "numerator": 32256,
+          "coefficient": 643326448772
+        },
+        {
+          "numerator": 32320,
+          "coefficient": 633470827050
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "101/200",
+        "253/500"
+      ],
+      "kmax": 92691,
+      "references": [
+        {
+          "numerator": 32320,
+          "coefficient": 642453395261
+        },
+        {
+          "numerator": 32384,
+          "coefficient": 632570012589
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "253/500",
+        "507/1000"
+      ],
+      "kmax": 92200,
+      "references": [
+        {
+          "numerator": 32384,
+          "coefficient": 641578614641
+        },
+        {
+          "numerator": 32448,
+          "coefficient": 631667149691
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "507/1000",
+        "127/250"
+      ],
+      "kmax": 91712,
+      "references": [
+        {
+          "numerator": 32448,
+          "coefficient": 640702106912
+        },
+        {
+          "numerator": 32512,
+          "coefficient": 630762233838
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "127/250",
+        "509/1000"
+      ],
+      "kmax": 91226,
+      "references": [
+        {
+          "numerator": 32512,
+          "coefficient": 639823872074
+        },
+        {
+          "numerator": 32576,
+          "coefficient": 629855260421
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "509/1000",
+        "51/100"
+      ],
+      "kmax": 90743,
+      "references": [
+        {
+          "numerator": 32576,
+          "coefficient": 638943910127
+        },
+        {
+          "numerator": 32640,
+          "coefficient": 628946224735
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "51/100",
+        "511/1000"
+      ],
+      "kmax": 90264,
+      "references": [
+        {
+          "numerator": 32640,
+          "coefficient": 638062221071
+        },
+        {
+          "numerator": 32704,
+          "coefficient": 628035121979
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "511/1000",
+        "64/125"
+      ],
+      "kmax": 89787,
+      "references": [
+        {
+          "numerator": 32704,
+          "coefficient": 637178804907
+        },
+        {
+          "numerator": 32768,
+          "coefficient": 627121947249
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "64/125",
+        "513/1000"
+      ],
+      "kmax": 89312,
+      "references": [
+        {
+          "numerator": 32768,
+          "coefficient": 636293661634
+        },
+        {
+          "numerator": 32832,
+          "coefficient": 626206695544
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "513/1000",
+        "257/500"
+      ],
+      "kmax": 88841,
+      "references": [
+        {
+          "numerator": 32832,
+          "coefficient": 635406791251
+        },
+        {
+          "numerator": 32896,
+          "coefficient": 625289361754
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "257/500",
+        "103/200"
+      ],
+      "kmax": 88372,
+      "references": [
+        {
+          "numerator": 32896,
+          "coefficient": 634518193761
+        },
+        {
+          "numerator": 32960,
+          "coefficient": 624369940664
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "103/200",
+        "129/250"
+      ],
+      "kmax": 87906,
+      "references": [
+        {
+          "numerator": 32960,
+          "coefficient": 633627869161
+        },
+        {
+          "numerator": 33024,
+          "coefficient": 623448426948
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "129/250",
+        "517/1000"
+      ],
+      "kmax": 87443,
+      "references": [
+        {
+          "numerator": 33024,
+          "coefficient": 632735817452
+        },
+        {
+          "numerator": 33088,
+          "coefficient": 622524815167
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "517/1000",
+        "259/500"
+      ],
+      "kmax": 86982,
+      "references": [
+        {
+          "numerator": 33088,
+          "coefficient": 631842038635
+        },
+        {
+          "numerator": 33152,
+          "coefficient": 621599099766
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "259/500",
+        "519/1000"
+      ],
+      "kmax": 86524,
+      "references": [
+        {
+          "numerator": 33152,
+          "coefficient": 630946532709
+        },
+        {
+          "numerator": 33216,
+          "coefficient": 620671275071
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "519/1000",
+        "13/25"
+      ],
+      "kmax": 86069,
+      "references": [
+        {
+          "numerator": 33216,
+          "coefficient": 630049299674
+        },
+        {
+          "numerator": 33280,
+          "coefficient": 619741335287
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "13/25",
+        "521/1000"
+      ],
+      "kmax": 85617,
+      "references": [
+        {
+          "numerator": 33280,
+          "coefficient": 629150339530
+        },
+        {
+          "numerator": 33344,
+          "coefficient": 618809274491
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "521/1000",
+        "261/500"
+      ],
+      "kmax": 85166,
+      "references": [
+        {
+          "numerator": 33344,
+          "coefficient": 628249652277
+        },
+        {
+          "numerator": 33408,
+          "coefficient": 617875086635
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "261/500",
+        "523/1000"
+      ],
+      "kmax": 84719,
+      "references": [
+        {
+          "numerator": 33408,
+          "coefficient": 627347237916
+        },
+        {
+          "numerator": 33472,
+          "coefficient": 616938765536
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "523/1000",
+        "131/250"
+      ],
+      "kmax": 84274,
+      "references": [
+        {
+          "numerator": 33472,
+          "coefficient": 626443096445
+        },
+        {
+          "numerator": 33536,
+          "coefficient": 616000304876
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "131/250",
+        "21/40"
+      ],
+      "kmax": 83832,
+      "references": [
+        {
+          "numerator": 33536,
+          "coefficient": 625537227866
+        },
+        {
+          "numerator": 33600,
+          "coefficient": 615059698199
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "21/40",
+        "263/500"
+      ],
+      "kmax": 83392,
+      "references": [
+        {
+          "numerator": 33600,
+          "coefficient": 624629632178
+        },
+        {
+          "numerator": 33664,
+          "coefficient": 614116938904
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "263/500",
+        "527/1000"
+      ],
+      "kmax": 82955,
+      "references": [
+        {
+          "numerator": 33664,
+          "coefficient": 623720309381
+        },
+        {
+          "numerator": 33728,
+          "coefficient": 613172020245
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "527/1000",
+        "66/125"
+      ],
+      "kmax": 82520,
+      "references": [
+        {
+          "numerator": 33728,
+          "coefficient": 622809259476
+        },
+        {
+          "numerator": 33792,
+          "coefficient": 612224935323
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "66/125",
+        "529/1000"
+      ],
+      "kmax": 82087,
+      "references": [
+        {
+          "numerator": 33792,
+          "coefficient": 621896482461
+        },
+        {
+          "numerator": 33856,
+          "coefficient": 611275677085
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "529/1000",
+        "53/100"
+      ],
+      "kmax": 81658,
+      "references": [
+        {
+          "numerator": 33856,
+          "coefficient": 620981978338
+        },
+        {
+          "numerator": 33920,
+          "coefficient": 610324238319
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "53/100",
+        "531/1000"
+      ],
+      "kmax": 81230,
+      "references": [
+        {
+          "numerator": 33920,
+          "coefficient": 620065747106
+        },
+        {
+          "numerator": 33984,
+          "coefficient": 609370611646
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "531/1000",
+        "133/250"
+      ],
+      "kmax": 80805,
+      "references": [
+        {
+          "numerator": 33984,
+          "coefficient": 619147788765
+        },
+        {
+          "numerator": 34048,
+          "coefficient": 608414789523
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "133/250",
+        "533/1000"
+      ],
+      "kmax": 80382,
+      "references": [
+        {
+          "numerator": 34048,
+          "coefficient": 618228103315
+        },
+        {
+          "numerator": 34112,
+          "coefficient": 607456764231
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "533/1000",
+        "267/500"
+      ],
+      "kmax": 79962,
+      "references": [
+        {
+          "numerator": 34112,
+          "coefficient": 617306690756
+        },
+        {
+          "numerator": 34176,
+          "coefficient": 606496527871
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "267/500",
+        "107/200"
+      ],
+      "kmax": 79544,
+      "references": [
+        {
+          "numerator": 34176,
+          "coefficient": 616383551089
+        },
+        {
+          "numerator": 34240,
+          "coefficient": 605534072364
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "107/200",
+        "67/125"
+      ],
+      "kmax": 79129,
+      "references": [
+        {
+          "numerator": 34240,
+          "coefficient": 615458684313
+        },
+        {
+          "numerator": 34304,
+          "coefficient": 604569389441
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "67/125",
+        "537/1000"
+      ],
+      "kmax": 78715,
+      "references": [
+        {
+          "numerator": 34304,
+          "coefficient": 614532090428
+        },
+        {
+          "numerator": 34368,
+          "coefficient": 603602470638
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "537/1000",
+        "269/500"
+      ],
+      "kmax": 78304,
+      "references": [
+        {
+          "numerator": 34368,
+          "coefficient": 613603769434
+        },
+        {
+          "numerator": 34432,
+          "coefficient": 602633307293
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "269/500",
+        "539/1000"
+      ],
+      "kmax": 77896,
+      "references": [
+        {
+          "numerator": 34432,
+          "coefficient": 612673721331
+        },
+        {
+          "numerator": 34496,
+          "coefficient": 601661890536
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "539/1000",
+        "27/50"
+      ],
+      "kmax": 77489,
+      "references": [
+        {
+          "numerator": 34496,
+          "coefficient": 611741946120
+        },
+        {
+          "numerator": 34560,
+          "coefficient": 600688211287
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "27/50",
+        "541/1000"
+      ],
+      "kmax": 77085,
+      "references": [
+        {
+          "numerator": 34560,
+          "coefficient": 610808443799
+        },
+        {
+          "numerator": 34624,
+          "coefficient": 599712260248
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "541/1000",
+        "271/500"
+      ],
+      "kmax": 76683,
+      "references": [
+        {
+          "numerator": 34624,
+          "coefficient": 609873214370
+        },
+        {
+          "numerator": 34688,
+          "coefficient": 598734027895
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "271/500",
+        "543/1000"
+      ],
+      "kmax": 76283,
+      "references": [
+        {
+          "numerator": 34688,
+          "coefficient": 608936257832
+        },
+        {
+          "numerator": 34752,
+          "coefficient": 597753504476
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "543/1000",
+        "68/125"
+      ],
+      "kmax": 75886,
+      "references": [
+        {
+          "numerator": 34752,
+          "coefficient": 607997574185
+        },
+        {
+          "numerator": 34816,
+          "coefficient": 596770679996
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "68/125",
+        "109/200"
+      ],
+      "kmax": 75491,
+      "references": [
+        {
+          "numerator": 34816,
+          "coefficient": 607057163429
+        },
+        {
+          "numerator": 34880,
+          "coefficient": 595785544218
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "109/200",
+        "273/500"
+      ],
+      "kmax": 75098,
+      "references": [
+        {
+          "numerator": 34880,
+          "coefficient": 606115025565
+        },
+        {
+          "numerator": 34944,
+          "coefficient": 594798086652
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "273/500",
+        "547/1000"
+      ],
+      "kmax": 74707,
+      "references": [
+        {
+          "numerator": 34944,
+          "coefficient": 605171160592
+        },
+        {
+          "numerator": 35008,
+          "coefficient": 593808296545
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "547/1000",
+        "137/250"
+      ],
+      "kmax": 74318,
+      "references": [
+        {
+          "numerator": 35008,
+          "coefficient": 604225568509
+        },
+        {
+          "numerator": 35072,
+          "coefficient": 592816162878
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "137/250",
+        "549/1000"
+      ],
+      "kmax": 73931,
+      "references": [
+        {
+          "numerator": 35072,
+          "coefficient": 603278249318
+        },
+        {
+          "numerator": 35136,
+          "coefficient": 591821674353
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "549/1000",
+        "11/20"
+      ],
+      "kmax": 73547,
+      "references": [
+        {
+          "numerator": 35136,
+          "coefficient": 602329203019
+        },
+        {
+          "numerator": 35200,
+          "coefficient": 590824819385
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "11/20",
+        "551/1000"
+      ],
+      "kmax": 73164,
+      "references": [
+        {
+          "numerator": 35200,
+          "coefficient": 601378429610
+        },
+        {
+          "numerator": 35264,
+          "coefficient": 589825586097
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "551/1000",
+        "69/125"
+      ],
+      "kmax": 72784,
+      "references": [
+        {
+          "numerator": 35264,
+          "coefficient": 600425929092
+        },
+        {
+          "numerator": 35328,
+          "coefficient": 588823962306
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "69/125",
+        "553/1000"
+      ],
+      "kmax": 72405,
+      "references": [
+        {
+          "numerator": 35328,
+          "coefficient": 599471701466
+        },
+        {
+          "numerator": 35392,
+          "coefficient": 587819935515
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "553/1000",
+        "277/500"
+      ],
+      "kmax": 72029,
+      "references": [
+        {
+          "numerator": 35392,
+          "coefficient": 598515746731
+        },
+        {
+          "numerator": 35456,
+          "coefficient": 586813492902
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "277/500",
+        "111/200"
+      ],
+      "kmax": 71655,
+      "references": [
+        {
+          "numerator": 35456,
+          "coefficient": 597558064887
+        },
+        {
+          "numerator": 35520,
+          "coefficient": 585804621313
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "111/200",
+        "139/250"
+      ],
+      "kmax": 71283,
+      "references": [
+        {
+          "numerator": 35520,
+          "coefficient": 596598655934
+        },
+        {
+          "numerator": 35584,
+          "coefficient": 584793307245
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "139/250",
+        "557/1000"
+      ],
+      "kmax": 70912,
+      "references": [
+        {
+          "numerator": 35584,
+          "coefficient": 595637519873
+        },
+        {
+          "numerator": 35648,
+          "coefficient": 583779536842
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "557/1000",
+        "279/500"
+      ],
+      "kmax": 70544,
+      "references": [
+        {
+          "numerator": 35648,
+          "coefficient": 594674656702
+        },
+        {
+          "numerator": 35712,
+          "coefficient": 582763295875
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "279/500",
+        "559/1000"
+      ],
+      "kmax": 70178,
+      "references": [
+        {
+          "numerator": 35712,
+          "coefficient": 593710066423
+        },
+        {
+          "numerator": 35776,
+          "coefficient": 581744569738
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "559/1000",
+        "14/25"
+      ],
+      "kmax": 69814,
+      "references": [
+        {
+          "numerator": 35776,
+          "coefficient": 592743749035
+        },
+        {
+          "numerator": 35840,
+          "coefficient": 580723343428
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "14/25",
+        "561/1000"
+      ],
+      "kmax": 69451,
+      "references": [
+        {
+          "numerator": 35840,
+          "coefficient": 591775704538
+        },
+        {
+          "numerator": 35904,
+          "coefficient": 579699601538
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "561/1000",
+        "281/500"
+      ],
+      "kmax": 69091,
+      "references": [
+        {
+          "numerator": 35904,
+          "coefficient": 590805932932
+        },
+        {
+          "numerator": 35968,
+          "coefficient": 578673328238
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "281/500",
+        "563/1000"
+      ],
+      "kmax": 68732,
+      "references": [
+        {
+          "numerator": 35968,
+          "coefficient": 589834434218
+        },
+        {
+          "numerator": 36032,
+          "coefficient": 577644507263
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "563/1000",
+        "141/250"
+      ],
+      "kmax": 68376,
+      "references": [
+        {
+          "numerator": 36032,
+          "coefficient": 588861208395
+        },
+        {
+          "numerator": 36096,
+          "coefficient": 576613121900
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "141/250",
+        "113/200"
+      ],
+      "kmax": 68021,
+      "references": [
+        {
+          "numerator": 36096,
+          "coefficient": 587886255462
+        },
+        {
+          "numerator": 36160,
+          "coefficient": 575579154966
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "113/200",
+        "283/500"
+      ],
+      "kmax": 67668,
+      "references": [
+        {
+          "numerator": 36160,
+          "coefficient": 586909575421
+        },
+        {
+          "numerator": 36224,
+          "coefficient": 574542588801
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "283/500",
+        "567/1000"
+      ],
+      "kmax": 67317,
+      "references": [
+        {
+          "numerator": 36224,
+          "coefficient": 585931168271
+        },
+        {
+          "numerator": 36288,
+          "coefficient": 573503405242
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "567/1000",
+        "71/125"
+      ],
+      "kmax": 66968,
+      "references": [
+        {
+          "numerator": 36288,
+          "coefficient": 584951034013
+        },
+        {
+          "numerator": 36352,
+          "coefficient": 572461585612
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "71/125",
+        "569/1000"
+      ],
+      "kmax": 66621,
+      "references": [
+        {
+          "numerator": 36352,
+          "coefficient": 583969172645
+        },
+        {
+          "numerator": 36416,
+          "coefficient": 571417110697
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "569/1000",
+        "57/100"
+      ],
+      "kmax": 66276,
+      "references": [
+        {
+          "numerator": 36416,
+          "coefficient": 582985584169
+        },
+        {
+          "numerator": 36480,
+          "coefficient": 570369960729
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "57/100",
+        "571/1000"
+      ],
+      "kmax": 65932,
+      "references": [
+        {
+          "numerator": 36480,
+          "coefficient": 582000268584
+        },
+        {
+          "numerator": 36544,
+          "coefficient": 569320115368
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "571/1000",
+        "143/250"
+      ],
+      "kmax": 65590,
+      "references": [
+        {
+          "numerator": 36544,
+          "coefficient": 581013225890
+        },
+        {
+          "numerator": 36608,
+          "coefficient": 568267553675
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "143/250",
+        "573/1000"
+      ],
+      "kmax": 65250,
+      "references": [
+        {
+          "numerator": 36608,
+          "coefficient": 580024456087
+        },
+        {
+          "numerator": 36672,
+          "coefficient": 567212254096
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "573/1000",
+        "287/500"
+      ],
+      "kmax": 64912,
+      "references": [
+        {
+          "numerator": 36672,
+          "coefficient": 579033959175
+        },
+        {
+          "numerator": 36736,
+          "coefficient": 566154194438
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "287/500",
+        "23/40"
+      ],
+      "kmax": 64576,
+      "references": [
+        {
+          "numerator": 36736,
+          "coefficient": 578041735155
+        },
+        {
+          "numerator": 36800,
+          "coefficient": 565093351842
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "23/40",
+        "72/125"
+      ],
+      "kmax": 64241,
+      "references": [
+        {
+          "numerator": 36800,
+          "coefficient": 577047784026
+        },
+        {
+          "numerator": 36864,
+          "coefficient": 564029702762
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "72/125",
+        "577/1000"
+      ],
+      "kmax": 63908,
+      "references": [
+        {
+          "numerator": 36864,
+          "coefficient": 576052105788
+        },
+        {
+          "numerator": 36928,
+          "coefficient": 562963222937
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "577/1000",
+        "289/500"
+      ],
+      "kmax": 63577,
+      "references": [
+        {
+          "numerator": 36928,
+          "coefficient": 575054700441
+        },
+        {
+          "numerator": 36992,
+          "coefficient": 561893887362
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "289/500",
+        "579/1000"
+      ],
+      "kmax": 63247,
+      "references": [
+        {
+          "numerator": 36992,
+          "coefficient": 574055567985
+        },
+        {
+          "numerator": 37056,
+          "coefficient": 560821670263
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "579/1000",
+        "29/50"
+      ],
+      "kmax": 62920,
+      "references": [
+        {
+          "numerator": 37056,
+          "coefficient": 573054708420
+        },
+        {
+          "numerator": 37120,
+          "coefficient": 559746545067
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "29/50",
+        "581/1000"
+      ],
+      "kmax": 62593,
+      "references": [
+        {
+          "numerator": 37120,
+          "coefficient": 572052121747
+        },
+        {
+          "numerator": 37184,
+          "coefficient": 558668484368
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "581/1000",
+        "291/500"
+      ],
+      "kmax": 62269,
+      "references": [
+        {
+          "numerator": 37184,
+          "coefficient": 571047807965
+        },
+        {
+          "numerator": 37248,
+          "coefficient": 557587459895
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "291/500",
+        "583/1000"
+      ],
+      "kmax": 61946,
+      "references": [
+        {
+          "numerator": 37248,
+          "coefficient": 570041767074
+        },
+        {
+          "numerator": 37312,
+          "coefficient": 556503442480
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "583/1000",
+        "73/125"
+      ],
+      "kmax": 61625,
+      "references": [
+        {
+          "numerator": 37312,
+          "coefficient": 569033999074
+        },
+        {
+          "numerator": 37376,
+          "coefficient": 555416402020
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "73/125",
+        "117/200"
+      ],
+      "kmax": 61306,
+      "references": [
+        {
+          "numerator": 37376,
+          "coefficient": 568024503965
+        },
+        {
+          "numerator": 37440,
+          "coefficient": 554326307439
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "117/200",
+        "1171/2000"
+      ],
+      "kmax": 60988,
+      "references": [
+        {
+          "numerator": 37440,
+          "coefficient": 567519108745
+        },
+        {
+          "numerator": 37472,
+          "coefficient": 560594051597
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1171/2000",
+        "293/500"
+      ],
+      "kmax": 60830,
+      "references": [
+        {
+          "numerator": 37472,
+          "coefficient": 567013281747
+        },
+        {
+          "numerator": 37504,
+          "coefficient": 560067253784
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "293/500",
+        "587/1000"
+      ],
+      "kmax": 60672,
+      "references": [
+        {
+          "numerator": 37504,
+          "coefficient": 566000332421
+        },
+        {
+          "numerator": 37568,
+          "coefficient": 552136826518
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "587/1000",
+        "147/250"
+      ],
+      "kmax": 60357,
+      "references": [
+        {
+          "numerator": 37568,
+          "coefficient": 564985655986
+        },
+        {
+          "numerator": 37632,
+          "coefficient": 551037372802
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "147/250",
+        "589/1000"
+      ],
+      "kmax": 60044,
+      "references": [
+        {
+          "numerator": 37632,
+          "coefficient": 563969252442
+        },
+        {
+          "numerator": 37696,
+          "coefficient": 549934730126
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "589/1000",
+        "59/100"
+      ],
+      "kmax": 59733,
+      "references": [
+        {
+          "numerator": 37696,
+          "coefficient": 562951121789
+        },
+        {
+          "numerator": 37760,
+          "coefficient": 548828861922
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "59/100",
+        "591/1000"
+      ],
+      "kmax": 59423,
+      "references": [
+        {
+          "numerator": 37760,
+          "coefficient": 561931264027
+        },
+        {
+          "numerator": 37824,
+          "coefficient": 547719730382
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "591/1000",
+        "74/125"
+      ],
+      "kmax": 59115,
+      "references": [
+        {
+          "numerator": 37824,
+          "coefficient": 560909679157
+        },
+        {
+          "numerator": 37888,
+          "coefficient": 546607296406
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "74/125",
+        "593/1000"
+      ],
+      "kmax": 58808,
+      "references": [
+        {
+          "numerator": 37888,
+          "coefficient": 559886367177
+        },
+        {
+          "numerator": 37952,
+          "coefficient": 545491519542
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "593/1000",
+        "297/500"
+      ],
+      "kmax": 58503,
+      "references": [
+        {
+          "numerator": 37952,
+          "coefficient": 558861328089
+        },
+        {
+          "numerator": 38016,
+          "coefficient": 544372357934
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "297/500",
+        "119/200"
+      ],
+      "kmax": 58200,
+      "references": [
+        {
+          "numerator": 38016,
+          "coefficient": 557834561892
+        },
+        {
+          "numerator": 38080,
+          "coefficient": 543249768255
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "119/200",
+        "149/250"
+      ],
+      "kmax": 57898,
+      "references": [
+        {
+          "numerator": 38080,
+          "coefficient": 556806068587
+        },
+        {
+          "numerator": 38144,
+          "coefficient": 542123705644
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "149/250",
+        "597/1000"
+      ],
+      "kmax": 57597,
+      "references": [
+        {
+          "numerator": 38144,
+          "coefficient": 555775848172
+        },
+        {
+          "numerator": 38208,
+          "coefficient": 540994123638
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "597/1000",
+        "299/500"
+      ],
+      "kmax": 57298,
+      "references": [
+        {
+          "numerator": 38208,
+          "coefficient": 554743900648
+        },
+        {
+          "numerator": 38272,
+          "coefficient": 539860974099
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "299/500",
+        "599/1000"
+      ],
+      "kmax": 57000,
+      "references": [
+        {
+          "numerator": 38272,
+          "coefficient": 553710226016
+        },
+        {
+          "numerator": 38336,
+          "coefficient": 538724207140
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "599/1000",
+        "3/5"
+      ],
+      "kmax": 56704,
+      "references": [
+        {
+          "numerator": 38336,
+          "coefficient": 552674824275
+        },
+        {
+          "numerator": 38400,
+          "coefficient": 537583771040
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "3/5",
+        "1201/2000"
+      ],
+      "kmax": 56410,
+      "references": [
+        {
+          "numerator": 38400,
+          "coefficient": 552156475739
+        },
+        {
+          "numerator": 38432,
+          "coefficient": 544514501224
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1201/2000",
+        "601/1000"
+      ],
+      "kmax": 56263,
+      "references": [
+        {
+          "numerator": 38432,
+          "coefficient": 551637695425
+        },
+        {
+          "numerator": 38464,
+          "coefficient": 543968259862
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "601/1000",
+        "301/500"
+      ],
+      "kmax": 56117,
+      "references": [
+        {
+          "numerator": 38464,
+          "coefficient": 550598839466
+        },
+        {
+          "numerator": 38528,
+          "coefficient": 535291674879
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "301/500",
+        "603/1000"
+      ],
+      "kmax": 55825,
+      "references": [
+        {
+          "numerator": 38528,
+          "coefficient": 549558256399
+        },
+        {
+          "numerator": 38592,
+          "coefficient": 534139901440
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "603/1000",
+        "151/250"
+      ],
+      "kmax": 55535,
+      "references": [
+        {
+          "numerator": 38592,
+          "coefficient": 548515946222
+        },
+        {
+          "numerator": 38656,
+          "coefficient": 532984231911
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "151/250",
+        "1209/2000"
+      ],
+      "kmax": 55246,
+      "references": [
+        {
+          "numerator": 38656,
+          "coefficient": 547994143468
+        },
+        {
+          "numerator": 38688,
+          "coefficient": 540124867926
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1209/2000",
+        "121/200"
+      ],
+      "kmax": 55103,
+      "references": [
+        {
+          "numerator": 38688,
+          "coefficient": 547471908937
+        },
+        {
+          "numerator": 38720,
+          "coefficient": 539572950030
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "121/200",
+        "303/500"
+      ],
+      "kmax": 54959,
+      "references": [
+        {
+          "numerator": 38720,
+          "coefficient": 546426144543
+        },
+        {
+          "numerator": 38784,
+          "coefficient": 530660953197
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "303/500",
+        "607/1000"
+      ],
+      "kmax": 54673,
+      "references": [
+        {
+          "numerator": 38784,
+          "coefficient": 545378653040
+        },
+        {
+          "numerator": 38848,
+          "coefficient": 529493212160
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "607/1000",
+        "243/400"
+      ],
+      "kmax": 54389,
+      "references": [
+        {
+          "numerator": 38848,
+          "coefficient": 544854259623
+        },
+        {
+          "numerator": 38880,
+          "coefficient": 536802354497
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "243/400",
+        "76/125"
+      ],
+      "kmax": 54247,
+      "references": [
+        {
+          "numerator": 38880,
+          "coefficient": 544329434428
+        },
+        {
+          "numerator": 38912,
+          "coefficient": 536246002617
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "76/125",
+        "1217/2000"
+      ],
+      "kmax": 54106,
+      "references": [
+        {
+          "numerator": 38912,
+          "coefficient": 543804177457
+        },
+        {
+          "numerator": 38944,
+          "coefficient": 535688895535
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1217/2000",
+        "609/1000"
+      ],
+      "kmax": 53965,
+      "references": [
+        {
+          "numerator": 38944,
+          "coefficient": 543278488708
+        },
+        {
+          "numerator": 38976,
+          "coefficient": 535131028373
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "609/1000",
+        "1219/2000"
+      ],
+      "kmax": 53824,
+      "references": [
+        {
+          "numerator": 38976,
+          "coefficient": 542752368182
+        },
+        {
+          "numerator": 39008,
+          "coefficient": 534572396150
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1219/2000",
+        "61/100"
+      ],
+      "kmax": 53684,
+      "references": [
+        {
+          "numerator": 39008,
+          "coefficient": 542225815879
+        },
+        {
+          "numerator": 39040,
+          "coefficient": 534012993787
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "61/100",
+        "611/1000"
+      ],
+      "kmax": 53544,
+      "references": [
+        {
+          "numerator": 39040,
+          "coefficient": 541171415940
+        },
+        {
+          "numerator": 39104,
+          "coefficient": 524779906346
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "611/1000",
+        "1223/2000"
+      ],
+      "kmax": 53265,
+      "references": [
+        {
+          "numerator": 39104,
+          "coefficient": 540643568306
+        },
+        {
+          "numerator": 39136,
+          "coefficient": 532330113477
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1223/2000",
+        "153/250"
+      ],
+      "kmax": 53126,
+      "references": [
+        {
+          "numerator": 39136,
+          "coefficient": 540115288893
+        },
+        {
+          "numerator": 39168,
+          "coefficient": 531767577627
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "153/250",
+        "49/80"
+      ],
+      "kmax": 52987,
+      "references": [
+        {
+          "numerator": 39168,
+          "coefficient": 539586577704
+        },
+        {
+          "numerator": 39200,
+          "coefficient": 531204244617
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "49/80",
+        "613/1000"
+      ],
+      "kmax": 52849,
+      "references": [
+        {
+          "numerator": 39200,
+          "coefficient": 539057434738
+        },
+        {
+          "numerator": 39232,
+          "coefficient": 530640108701
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "613/1000",
+        "1227/2000"
+      ],
+      "kmax": 52711,
+      "references": [
+        {
+          "numerator": 39232,
+          "coefficient": 538527859994
+        },
+        {
+          "numerator": 39264,
+          "coefficient": 530075164010
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1227/2000",
+        "307/500"
+      ],
+      "kmax": 52574,
+      "references": [
+        {
+          "numerator": 39264,
+          "coefficient": 537997853473
+        },
+        {
+          "numerator": 39296,
+          "coefficient": 529509404549
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "307/500",
+        "1229/2000"
+      ],
+      "kmax": 52436,
+      "references": [
+        {
+          "numerator": 39296,
+          "coefficient": 537467415175
+        },
+        {
+          "numerator": 39328,
+          "coefficient": 528942824198
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1229/2000",
+        "123/200"
+      ],
+      "kmax": 52299,
+      "references": [
+        {
+          "numerator": 39328,
+          "coefficient": 536936545099
+        },
+        {
+          "numerator": 39360,
+          "coefficient": 528375416702
+        }
+      ],
+      "gram_for_k5": true,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "123/200",
+        "1231/2000"
+      ],
+      "kmax": 52163,
+      "references": [
+        {
+          "numerator": 39360,
+          "coefficient": 536405243247
+        },
+        {
+          "numerator": 39392,
+          "coefficient": 527807175674
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 446412993564
+        }
+      ]
+    },
+    {
+      "interval": [
+        "1231/2000",
+        "77/125"
+      ],
+      "kmax": 52027,
+      "references": [
+        {
+          "numerator": 39392,
+          "coefficient": 535873509617
+        },
+        {
+          "numerator": 39424,
+          "coefficient": 527238094584
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 453685136235
+        }
+      ]
+    },
+    {
+      "interval": [
+        "77/125",
+        "1233/2000"
+      ],
+      "kmax": 51891,
+      "references": [
+        {
+          "numerator": 39424,
+          "coefficient": 535341344210
+        },
+        {
+          "numerator": 39456,
+          "coefficient": 526668166765
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 461115857736
+        }
+      ]
+    },
+    {
+      "interval": [
+        "1233/2000",
+        "617/1000"
+      ],
+      "kmax": 51755,
+      "references": [
+        {
+          "numerator": 39456,
+          "coefficient": 534808747026
+        },
+        {
+          "numerator": 39488,
+          "coefficient": 526097385398
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 468709519000
+        }
+      ]
+    },
+    {
+      "interval": [
+        "617/1000",
+        "247/400"
+      ],
+      "kmax": 51620,
+      "references": [
+        {
+          "numerator": 39488,
+          "coefficient": 534275718065
+        },
+        {
+          "numerator": 39520,
+          "coefficient": 525525743517
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 476470626034
+        }
+      ]
+    },
+    {
+      "interval": [
+        "247/400",
+        "309/500"
+      ],
+      "kmax": 51485,
+      "references": [
+        {
+          "numerator": 39520,
+          "coefficient": 533742257326
+        },
+        {
+          "numerator": 39552,
+          "coefficient": 524953234000
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 484403835590
+        }
+      ]
+    },
+    {
+      "interval": [
+        "309/500",
+        "1237/2000"
+      ],
+      "kmax": 51350,
+      "references": [
+        {
+          "numerator": 39552,
+          "coefficient": 533208364810
+        },
+        {
+          "numerator": 39584,
+          "coefficient": 524379849566
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 492513961092
+        }
+      ]
+    },
+    {
+      "interval": [
+        "1237/2000",
+        "619/1000"
+      ],
+      "kmax": 51216,
+      "references": [
+        {
+          "numerator": 39584,
+          "coefficient": 532674040517
+        },
+        {
+          "numerator": 39616,
+          "coefficient": 523805582770
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 500805978829
+        }
+      ]
+    },
+    {
+      "interval": [
+        "619/1000",
+        "1239/2000"
+      ],
+      "kmax": 51082,
+      "references": [
+        {
+          "numerator": 39616,
+          "coefficient": 532139284447
+        },
+        {
+          "numerator": 39648,
+          "coefficient": 523230426000
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 509285034435
+        }
+      ]
+    },
+    {
+      "interval": [
+        "1239/2000",
+        "31/50"
+      ],
+      "kmax": 50948,
+      "references": [
+        {
+          "numerator": 39648,
+          "coefficient": 531604096600
+        },
+        {
+          "numerator": 39680,
+          "coefficient": 522654371471
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        5
+      ],
+      "repairs": [
+        {
+          "k": 5,
+          "reference": 39696,
+          "tau": 13,
+          "gap_index": 4,
+          "coefficient": 517956449657
+        }
+      ]
+    },
+    {
+      "interval": [
+        "31/50",
+        "1241/2000"
+      ],
+      "kmax": 50815,
+      "references": [
+        {
+          "numerator": 39680,
+          "coefficient": 531068476975
+        },
+        {
+          "numerator": 39712,
+          "coefficient": 522077411219
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1241/2000",
+        "621/1000"
+      ],
+      "kmax": 50682,
+      "references": [
+        {
+          "numerator": 39712,
+          "coefficient": 530532425573
+        },
+        {
+          "numerator": 39744,
+          "coefficient": 521499537097
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "621/1000",
+        "1243/2000"
+      ],
+      "kmax": 50549,
+      "references": [
+        {
+          "numerator": 39744,
+          "coefficient": 529995942394
+        },
+        {
+          "numerator": 39776,
+          "coefficient": 520920740772
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1243/2000",
+        "311/500"
+      ],
+      "kmax": 50417,
+      "references": [
+        {
+          "numerator": 39776,
+          "coefficient": 529459027438
+        },
+        {
+          "numerator": 39808,
+          "coefficient": 520341013714
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "311/500",
+        "249/400"
+      ],
+      "kmax": 50285,
+      "references": [
+        {
+          "numerator": 39808,
+          "coefficient": 528921680704
+        },
+        {
+          "numerator": 39840,
+          "coefficient": 519760347197
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "249/400",
+        "623/1000"
+      ],
+      "kmax": 50153,
+      "references": [
+        {
+          "numerator": 39840,
+          "coefficient": 528383902194
+        },
+        {
+          "numerator": 39872,
+          "coefficient": 519178732287
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "623/1000",
+        "1247/2000"
+      ],
+      "kmax": 50022,
+      "references": [
+        {
+          "numerator": 39872,
+          "coefficient": 527845691906
+        },
+        {
+          "numerator": 39904,
+          "coefficient": 518596159841
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1247/2000",
+        "78/125"
+      ],
+      "kmax": 49891,
+      "references": [
+        {
+          "numerator": 39904,
+          "coefficient": 527307049841
+        },
+        {
+          "numerator": 39936,
+          "coefficient": 518012620496
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "78/125",
+        "1249/2000"
+      ],
+      "kmax": 49760,
+      "references": [
+        {
+          "numerator": 39936,
+          "coefficient": 526767975999
+        },
+        {
+          "numerator": 39968,
+          "coefficient": 517428104667
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1249/2000",
+        "5/8"
+      ],
+      "kmax": 49630,
+      "references": [
+        {
+          "numerator": 39968,
+          "coefficient": 526228470379
+        },
+        {
+          "numerator": 40000,
+          "coefficient": 516842602538
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "5/8",
+        "1251/2000"
+      ],
+      "kmax": 49500,
+      "references": [
+        {
+          "numerator": 40000,
+          "coefficient": 525688532982
+        },
+        {
+          "numerator": 40032,
+          "coefficient": 516256104053
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1251/2000",
+        "313/500"
+      ],
+      "kmax": 49370,
+      "references": [
+        {
+          "numerator": 40032,
+          "coefficient": 525148163808
+        },
+        {
+          "numerator": 40064,
+          "coefficient": 515668598914
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "313/500",
+        "1253/2000"
+      ],
+      "kmax": 49240,
+      "references": [
+        {
+          "numerator": 40064,
+          "coefficient": 524607362857
+        },
+        {
+          "numerator": 40096,
+          "coefficient": 515080076569
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1253/2000",
+        "627/1000"
+      ],
+      "kmax": 49111,
+      "references": [
+        {
+          "numerator": 40096,
+          "coefficient": 524066130129
+        },
+        {
+          "numerator": 40128,
+          "coefficient": 514490526205
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "627/1000",
+        "251/400"
+      ],
+      "kmax": 48982,
+      "references": [
+        {
+          "numerator": 40128,
+          "coefficient": 523524465624
+        },
+        {
+          "numerator": 40160,
+          "coefficient": 513899936742
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "251/400",
+        "157/250"
+      ],
+      "kmax": 48854,
+      "references": [
+        {
+          "numerator": 40160,
+          "coefficient": 522982369341
+        },
+        {
+          "numerator": 40192,
+          "coefficient": 513308296822
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "157/250",
+        "1257/2000"
+      ],
+      "kmax": 48725,
+      "references": [
+        {
+          "numerator": 40192,
+          "coefficient": 522439841281
+        },
+        {
+          "numerator": 40224,
+          "coefficient": 512715594802
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1257/2000",
+        "629/1000"
+      ],
+      "kmax": 48597,
+      "references": [
+        {
+          "numerator": 40224,
+          "coefficient": 521896881444
+        },
+        {
+          "numerator": 40256,
+          "coefficient": 512121818745
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "629/1000",
+        "1259/2000"
+      ],
+      "kmax": 48470,
+      "references": [
+        {
+          "numerator": 40256,
+          "coefficient": 521353489829
+        },
+        {
+          "numerator": 40288,
+          "coefficient": 511526956408
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1259/2000",
+        "63/100"
+      ],
+      "kmax": 48342,
+      "references": [
+        {
+          "numerator": 40288,
+          "coefficient": 520809666438
+        },
+        {
+          "numerator": 40320,
+          "coefficient": 510930995238
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "63/100",
+        "1261/2000"
+      ],
+      "kmax": 48215,
+      "references": [
+        {
+          "numerator": 40320,
+          "coefficient": 520265411269
+        },
+        {
+          "numerator": 40352,
+          "coefficient": 510333922356
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1261/2000",
+        "631/1000"
+      ],
+      "kmax": 48089,
+      "references": [
+        {
+          "numerator": 40352,
+          "coefficient": 519720724323
+        },
+        {
+          "numerator": 40384,
+          "coefficient": 509735724548
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "631/1000",
+        "1263/2000"
+      ],
+      "kmax": 47962,
+      "references": [
+        {
+          "numerator": 40384,
+          "coefficient": 519175605600
+        },
+        {
+          "numerator": 40416,
+          "coefficient": 509136388257
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1263/2000",
+        "79/125"
+      ],
+      "kmax": 47836,
+      "references": [
+        {
+          "numerator": 40416,
+          "coefficient": 518630055100
+        },
+        {
+          "numerator": 40448,
+          "coefficient": 508535899567
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "79/125",
+        "253/400"
+      ],
+      "kmax": 47710,
+      "references": [
+        {
+          "numerator": 40448,
+          "coefficient": 518084072822
+        },
+        {
+          "numerator": 40480,
+          "coefficient": 507934244197
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "253/400",
+        "633/1000"
+      ],
+      "kmax": 47585,
+      "references": [
+        {
+          "numerator": 40480,
+          "coefficient": 517537658767
+        },
+        {
+          "numerator": 40512,
+          "coefficient": 507331407483
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "633/1000",
+        "1267/2000"
+      ],
+      "kmax": 47459,
+      "references": [
+        {
+          "numerator": 40512,
+          "coefficient": 516990812935
+        },
+        {
+          "numerator": 40544,
+          "coefficient": 506727374368
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1267/2000",
+        "317/500"
+      ],
+      "kmax": 47334,
+      "references": [
+        {
+          "numerator": 40544,
+          "coefficient": 516443535326
+        },
+        {
+          "numerator": 40576,
+          "coefficient": 506122129389
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "317/500",
+        "1269/2000"
+      ],
+      "kmax": 47210,
+      "references": [
+        {
+          "numerator": 40576,
+          "coefficient": 515895825940
+        },
+        {
+          "numerator": 40608,
+          "coefficient": 505515656663
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1269/2000",
+        "127/200"
+      ],
+      "kmax": 47085,
+      "references": [
+        {
+          "numerator": 40608,
+          "coefficient": 515347684776
+        },
+        {
+          "numerator": 40640,
+          "coefficient": 504907939871
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "127/200",
+        "1271/2000"
+      ],
+      "kmax": 46961,
+      "references": [
+        {
+          "numerator": 40640,
+          "coefficient": 514799111835
+        },
+        {
+          "numerator": 40672,
+          "coefficient": 504298962246
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1271/2000",
+        "159/250"
+      ],
+      "kmax": 46838,
+      "references": [
+        {
+          "numerator": 40672,
+          "coefficient": 514250107117
+        },
+        {
+          "numerator": 40704,
+          "coefficient": 503688706555
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "159/250",
+        "1273/2000"
+      ],
+      "kmax": 46714,
+      "references": [
+        {
+          "numerator": 40704,
+          "coefficient": 513700670622
+        },
+        {
+          "numerator": 40736,
+          "coefficient": 503077155083
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1273/2000",
+        "637/1000"
+      ],
+      "kmax": 46591,
+      "references": [
+        {
+          "numerator": 40736,
+          "coefficient": 513150802350
+        },
+        {
+          "numerator": 40768,
+          "coefficient": 502464289616
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "637/1000",
+        "51/80"
+      ],
+      "kmax": 46468,
+      "references": [
+        {
+          "numerator": 40768,
+          "coefficient": 512600502300
+        },
+        {
+          "numerator": 40800,
+          "coefficient": 501850091425
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "51/80",
+        "319/500"
+      ],
+      "kmax": 46345,
+      "references": [
+        {
+          "numerator": 40800,
+          "coefficient": 512049770473
+        },
+        {
+          "numerator": 40832,
+          "coefficient": 501234541246
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "319/500",
+        "1277/2000"
+      ],
+      "kmax": 46223,
+      "references": [
+        {
+          "numerator": 40832,
+          "coefficient": 511498606869
+        },
+        {
+          "numerator": 40864,
+          "coefficient": 500617619262
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1277/2000",
+        "639/1000"
+      ],
+      "kmax": 46101,
+      "references": [
+        {
+          "numerator": 40864,
+          "coefficient": 510947011488
+        },
+        {
+          "numerator": 40896,
+          "coefficient": 499999305080
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "639/1000",
+        "1279/2000"
+      ],
+      "kmax": 45979,
+      "references": [
+        {
+          "numerator": 40896,
+          "coefficient": 510394984329
+        },
+        {
+          "numerator": 40928,
+          "coefficient": 499379577716
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1279/2000",
+        "16/25"
+      ],
+      "kmax": 45858,
+      "references": [
+        {
+          "numerator": 40928,
+          "coefficient": 509842525394
+        },
+        {
+          "numerator": 40960,
+          "coefficient": 498758415566
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "16/25",
+        "1281/2000"
+      ],
+      "kmax": 45737,
+      "references": [
+        {
+          "numerator": 40960,
+          "coefficient": 509289634681
+        },
+        {
+          "numerator": 40992,
+          "coefficient": 498135796388
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1281/2000",
+        "641/1000"
+      ],
+      "kmax": 45616,
+      "references": [
+        {
+          "numerator": 40992,
+          "coefficient": 508736312191
+        },
+        {
+          "numerator": 41024,
+          "coefficient": 497511697277
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "641/1000",
+        "1283/2000"
+      ],
+      "kmax": 45495,
+      "references": [
+        {
+          "numerator": 41024,
+          "coefficient": 508182557923
+        },
+        {
+          "numerator": 41056,
+          "coefficient": 496886094639
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1283/2000",
+        "321/500"
+      ],
+      "kmax": 45375,
+      "references": [
+        {
+          "numerator": 41056,
+          "coefficient": 507628371879
+        },
+        {
+          "numerator": 41088,
+          "coefficient": 496258964167
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "321/500",
+        "257/400"
+      ],
+      "kmax": 45255,
+      "references": [
+        {
+          "numerator": 41088,
+          "coefficient": 507073754057
+        },
+        {
+          "numerator": 41120,
+          "coefficient": 495630280813
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "257/400",
+        "643/1000"
+      ],
+      "kmax": 45135,
+      "references": [
+        {
+          "numerator": 41120,
+          "coefficient": 506518704458
+        },
+        {
+          "numerator": 41152,
+          "coefficient": 495000018757
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "643/1000",
+        "1287/2000"
+      ],
+      "kmax": 45015,
+      "references": [
+        {
+          "numerator": 41152,
+          "coefficient": 505963223082
+        },
+        {
+          "numerator": 41184,
+          "coefficient": 494368151382
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1287/2000",
+        "161/250"
+      ],
+      "kmax": 44896,
+      "references": [
+        {
+          "numerator": 41184,
+          "coefficient": 505407309929
+        },
+        {
+          "numerator": 41216,
+          "coefficient": 493734651239
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "161/250",
+        "1289/2000"
+      ],
+      "kmax": 44777,
+      "references": [
+        {
+          "numerator": 41216,
+          "coefficient": 504850964998
+        },
+        {
+          "numerator": 41248,
+          "coefficient": 493099490015
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1289/2000",
+        "129/200"
+      ],
+      "kmax": 44659,
+      "references": [
+        {
+          "numerator": 41248,
+          "coefficient": 504294188291
+        },
+        {
+          "numerator": 41280,
+          "coefficient": 492462638500
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "129/200",
+        "1291/2000"
+      ],
+      "kmax": 44540,
+      "references": [
+        {
+          "numerator": 41280,
+          "coefficient": 503736979806
+        },
+        {
+          "numerator": 41312,
+          "coefficient": 491824066551
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1291/2000",
+        "323/500"
+      ],
+      "kmax": 44422,
+      "references": [
+        {
+          "numerator": 41312,
+          "coefficient": 503179339544
+        },
+        {
+          "numerator": 41344,
+          "coefficient": 491183743053
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "323/500",
+        "1293/2000"
+      ],
+      "kmax": 44304,
+      "references": [
+        {
+          "numerator": 41344,
+          "coefficient": 502621267504
+        },
+        {
+          "numerator": 41376,
+          "coefficient": 490541635880
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1293/2000",
+        "647/1000"
+      ],
+      "kmax": 44187,
+      "references": [
+        {
+          "numerator": 41376,
+          "coefficient": 502062763688
+        },
+        {
+          "numerator": 41408,
+          "coefficient": 489897711857
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "647/1000",
+        "259/400"
+      ],
+      "kmax": 44069,
+      "references": [
+        {
+          "numerator": 41408,
+          "coefficient": 501503828094
+        },
+        {
+          "numerator": 41440,
+          "coefficient": 489251936709
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "259/400",
+        "81/125"
+      ],
+      "kmax": 43952,
+      "references": [
+        {
+          "numerator": 41440,
+          "coefficient": 500944460723
+        },
+        {
+          "numerator": 41472,
+          "coefficient": 488604275025
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "81/125",
+        "1297/2000"
+      ],
+      "kmax": 43836,
+      "references": [
+        {
+          "numerator": 41472,
+          "coefficient": 500384661575
+        },
+        {
+          "numerator": 41504,
+          "coefficient": 487954690202
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1297/2000",
+        "649/1000"
+      ],
+      "kmax": 43719,
+      "references": [
+        {
+          "numerator": 41504,
+          "coefficient": 499824430649
+        },
+        {
+          "numerator": 41536,
+          "coefficient": 487303144400
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "649/1000",
+        "1299/2000"
+      ],
+      "kmax": 43603,
+      "references": [
+        {
+          "numerator": 41536,
+          "coefficient": 499263767947
+        },
+        {
+          "numerator": 41568,
+          "coefficient": 486649598484
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1299/2000",
+        "13/20"
+      ],
+      "kmax": 43487,
+      "references": [
+        {
+          "numerator": 41568,
+          "coefficient": 498702673467
+        },
+        {
+          "numerator": 41600,
+          "coefficient": 485994011976
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "13/20",
+        "1301/2000"
+      ],
+      "kmax": 43371,
+      "references": [
+        {
+          "numerator": 41600,
+          "coefficient": 498141147210
+        },
+        {
+          "numerator": 41632,
+          "coefficient": 485336342988
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1301/2000",
+        "651/1000"
+      ],
+      "kmax": 43256,
+      "references": [
+        {
+          "numerator": 41632,
+          "coefficient": 497579189176
+        },
+        {
+          "numerator": 41664,
+          "coefficient": 484676548167
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        24
+      ],
+      "repairs": [
+        {
+          "k": 24,
+          "reference": 41792,
+          "tau": 61,
+          "gap_index": 23,
+          "coefficient": 433309151719
+        }
+      ]
+    },
+    {
+      "interval": [
+        "651/1000",
+        "1303/2000"
+      ],
+      "kmax": 43141,
+      "references": [
+        {
+          "numerator": 41664,
+          "coefficient": 497016799364
+        },
+        {
+          "numerator": 41696,
+          "coefficient": 484014582627
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        24
+      ],
+      "repairs": [
+        {
+          "k": 24,
+          "reference": 41792,
+          "tau": 61,
+          "gap_index": 23,
+          "coefficient": 444844334206
+        }
+      ]
+    },
+    {
+      "interval": [
+        "1303/2000",
+        "163/250"
+      ],
+      "kmax": 43026,
+      "references": [
+        {
+          "numerator": 41696,
+          "coefficient": 496453977776
+        },
+        {
+          "numerator": 41728,
+          "coefficient": 483350399880
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        24
+      ],
+      "repairs": [
+        {
+          "k": 24,
+          "reference": 41792,
+          "tau": 61,
+          "gap_index": 23,
+          "coefficient": 456794309797
+        }
+      ]
+    },
+    {
+      "interval": [
+        "163/250",
+        "261/400"
+      ],
+      "kmax": 42911,
+      "references": [
+        {
+          "numerator": 41728,
+          "coefficient": 495890724410
+        },
+        {
+          "numerator": 41760,
+          "coefficient": 482683951768
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [
+        24
+      ],
+      "repairs": [
+        {
+          "k": 24,
+          "reference": 41792,
+          "tau": 61,
+          "gap_index": 23,
+          "coefficient": 469177954916
+        }
+      ]
+    },
+    {
+      "interval": [
+        "261/400",
+        "653/1000"
+      ],
+      "kmax": 42797,
+      "references": [
+        {
+          "numerator": 41760,
+          "coefficient": 495327039267
+        },
+        {
+          "numerator": 41792,
+          "coefficient": 482015188382
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "653/1000",
+        "1307/2000"
+      ],
+      "kmax": 42683,
+      "references": [
+        {
+          "numerator": 41792,
+          "coefficient": 494762922347
+        },
+        {
+          "numerator": 41824,
+          "coefficient": 481344057985
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1307/2000",
+        "327/500"
+      ],
+      "kmax": 42569,
+      "references": [
+        {
+          "numerator": 41824,
+          "coefficient": 494198373649
+        },
+        {
+          "numerator": 41856,
+          "coefficient": 480670506927
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "327/500",
+        "1309/2000"
+      ],
+      "kmax": 42455,
+      "references": [
+        {
+          "numerator": 41856,
+          "coefficient": 493633393174
+        },
+        {
+          "numerator": 41888,
+          "coefficient": 479994479556
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1309/2000",
+        "131/200"
+      ],
+      "kmax": 42342,
+      "references": [
+        {
+          "numerator": 41888,
+          "coefficient": 493067980923
+        },
+        {
+          "numerator": 41920,
+          "coefficient": 479315918123
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "131/200",
+        "1311/2000"
+      ],
+      "kmax": 42229,
+      "references": [
+        {
+          "numerator": 41920,
+          "coefficient": 492502136893
+        },
+        {
+          "numerator": 41952,
+          "coefficient": 478634762682
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1311/2000",
+        "82/125"
+      ],
+      "kmax": 42116,
+      "references": [
+        {
+          "numerator": 41952,
+          "coefficient": 491935861087
+        },
+        {
+          "numerator": 41984,
+          "coefficient": 477950950986
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "82/125",
+        "1313/2000"
+      ],
+      "kmax": 42004,
+      "references": [
+        {
+          "numerator": 41984,
+          "coefficient": 491369153504
+        },
+        {
+          "numerator": 42016,
+          "coefficient": 477264418374
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1313/2000",
+        "657/1000"
+      ],
+      "kmax": 41891,
+      "references": [
+        {
+          "numerator": 42016,
+          "coefficient": 490802014143
+        },
+        {
+          "numerator": 42048,
+          "coefficient": 476575097655
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "657/1000",
+        "263/400"
+      ],
+      "kmax": 41779,
+      "references": [
+        {
+          "numerator": 42048,
+          "coefficient": 490234443005
+        },
+        {
+          "numerator": 42080,
+          "coefficient": 475882918980
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "263/400",
+        "329/500"
+      ],
+      "kmax": 41668,
+      "references": [
+        {
+          "numerator": 42080,
+          "coefficient": 489666440090
+        },
+        {
+          "numerator": 42112,
+          "coefficient": 475187809711
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "329/500",
+        "1317/2000"
+      ],
+      "kmax": 41556,
+      "references": [
+        {
+          "numerator": 42112,
+          "coefficient": 489098005398
+        },
+        {
+          "numerator": 42144,
+          "coefficient": 474489694282
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1317/2000",
+        "659/1000"
+      ],
+      "kmax": 41445,
+      "references": [
+        {
+          "numerator": 42144,
+          "coefficient": 488529138928
+        },
+        {
+          "numerator": 42176,
+          "coefficient": 473788494045
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "659/1000",
+        "1319/2000"
+      ],
+      "kmax": 41334,
+      "references": [
+        {
+          "numerator": 42176,
+          "coefficient": 487959840681
+        },
+        {
+          "numerator": 42208,
+          "coefficient": 473084127117
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1319/2000",
+        "33/50"
+      ],
+      "kmax": 41223,
+      "references": [
+        {
+          "numerator": 42208,
+          "coefficient": 487390110658
+        },
+        {
+          "numerator": 42240,
+          "coefficient": 472376508210
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "33/50",
+        "1321/2000"
+      ],
+      "kmax": 41113,
+      "references": [
+        {
+          "numerator": 42240,
+          "coefficient": 486819948856
+        },
+        {
+          "numerator": 42272,
+          "coefficient": 471665548450
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1321/2000",
+        "661/1000"
+      ],
+      "kmax": 41002,
+      "references": [
+        {
+          "numerator": 42272,
+          "coefficient": 486249355278
+        },
+        {
+          "numerator": 42304,
+          "coefficient": 470951155188
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "661/1000",
+        "1323/2000"
+      ],
+      "kmax": 40892,
+      "references": [
+        {
+          "numerator": 42304,
+          "coefficient": 485678329922
+        },
+        {
+          "numerator": 42336,
+          "coefficient": 470233231800
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1323/2000",
+        "331/500"
+      ],
+      "kmax": 40783,
+      "references": [
+        {
+          "numerator": 42336,
+          "coefficient": 485106872790
+        },
+        {
+          "numerator": 42368,
+          "coefficient": 469511677466
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "331/500",
+        "53/80"
+      ],
+      "kmax": 40673,
+      "references": [
+        {
+          "numerator": 42368,
+          "coefficient": 484534983880
+        },
+        {
+          "numerator": 42400,
+          "coefficient": 468786386945
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "53/80",
+        "663/1000"
+      ],
+      "kmax": 40564,
+      "references": [
+        {
+          "numerator": 42400,
+          "coefficient": 483962663193
+        },
+        {
+          "numerator": 42432,
+          "coefficient": 468057250327
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "663/1000",
+        "1327/2000"
+      ],
+      "kmax": 40455,
+      "references": [
+        {
+          "numerator": 42432,
+          "coefficient": 483389910728
+        },
+        {
+          "numerator": 42464,
+          "coefficient": 467324152774
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1327/2000",
+        "83/125"
+      ],
+      "kmax": 40346,
+      "references": [
+        {
+          "numerator": 42464,
+          "coefficient": 482816726487
+        },
+        {
+          "numerator": 42496,
+          "coefficient": 466586974236
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "83/125",
+        "1329/2000"
+      ],
+      "kmax": 40238,
+      "references": [
+        {
+          "numerator": 42496,
+          "coefficient": 482243110468
+        },
+        {
+          "numerator": 42528,
+          "coefficient": 465845589157
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1329/2000",
+        "133/200"
+      ],
+      "kmax": 40129,
+      "references": [
+        {
+          "numerator": 42528,
+          "coefficient": 481669062672
+        },
+        {
+          "numerator": 42560,
+          "coefficient": 465099866152
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "133/200",
+        "1331/2000"
+      ],
+      "kmax": 40021,
+      "references": [
+        {
+          "numerator": 42560,
+          "coefficient": 481094583099
+        },
+        {
+          "numerator": 42592,
+          "coefficient": 464349667667
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1331/2000",
+        "333/500"
+      ],
+      "kmax": 39914,
+      "references": [
+        {
+          "numerator": 42592,
+          "coefficient": 480519671748
+        },
+        {
+          "numerator": 42624,
+          "coefficient": 463594849613
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "333/500",
+        "1333/2000"
+      ],
+      "kmax": 39806,
+      "references": [
+        {
+          "numerator": 42624,
+          "coefficient": 479944328621
+        },
+        {
+          "numerator": 42656,
+          "coefficient": 462835260971
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1333/2000",
+        "667/1000"
+      ],
+      "kmax": 39699,
+      "references": [
+        {
+          "numerator": 42656,
+          "coefficient": 479368553716
+        },
+        {
+          "numerator": 42688,
+          "coefficient": 462070743371
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "667/1000",
+        "267/400"
+      ],
+      "kmax": 39592,
+      "references": [
+        {
+          "numerator": 42688,
+          "coefficient": 478792347034
+        },
+        {
+          "numerator": 42720,
+          "coefficient": 461301130642
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "267/400",
+        "167/250"
+      ],
+      "kmax": 39485,
+      "references": [
+        {
+          "numerator": 42720,
+          "coefficient": 478215708575
+        },
+        {
+          "numerator": 42752,
+          "coefficient": 460526248322
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "167/250",
+        "1337/2000"
+      ],
+      "kmax": 39378,
+      "references": [
+        {
+          "numerator": 42752,
+          "coefficient": 477638638338
+        },
+        {
+          "numerator": 42784,
+          "coefficient": 459745913136
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1337/2000",
+        "669/1000"
+      ],
+      "kmax": 39272,
+      "references": [
+        {
+          "numerator": 42784,
+          "coefficient": 477061136324
+        },
+        {
+          "numerator": 42816,
+          "coefficient": 458959932434
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "669/1000",
+        "1339/2000"
+      ],
+      "kmax": 39166,
+      "references": [
+        {
+          "numerator": 42816,
+          "coefficient": 476483202534
+        },
+        {
+          "numerator": 42848,
+          "coefficient": 458168103582
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1339/2000",
+        "67/100"
+      ],
+      "kmax": 39060,
+      "references": [
+        {
+          "numerator": 42848,
+          "coefficient": 475904836966
+        },
+        {
+          "numerator": 42880,
+          "coefficient": 457370213305
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "67/100",
+        "1341/2000"
+      ],
+      "kmax": 38954,
+      "references": [
+        {
+          "numerator": 42880,
+          "coefficient": 475326039620
+        },
+        {
+          "numerator": 42912,
+          "coefficient": 456566036986
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1341/2000",
+        "671/1000"
+      ],
+      "kmax": 38849,
+      "references": [
+        {
+          "numerator": 42912,
+          "coefficient": 474746810498
+        },
+        {
+          "numerator": 42944,
+          "coefficient": 455755337893
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "671/1000",
+        "1343/2000"
+      ],
+      "kmax": 38744,
+      "references": [
+        {
+          "numerator": 42944,
+          "coefficient": 474167149598
+        },
+        {
+          "numerator": 42976,
+          "coefficient": 454937866359
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1343/2000",
+        "84/125"
+      ],
+      "kmax": 38639,
+      "references": [
+        {
+          "numerator": 42976,
+          "coefficient": 473587056921
+        },
+        {
+          "numerator": 43008,
+          "coefficient": 454113358882
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "84/125",
+        "269/400"
+      ],
+      "kmax": 38534,
+      "references": [
+        {
+          "numerator": 43008,
+          "coefficient": 473006532467
+        },
+        {
+          "numerator": 43040,
+          "coefficient": 453281537153
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "269/400",
+        "673/1000"
+      ],
+      "kmax": 38430,
+      "references": [
+        {
+          "numerator": 43040,
+          "coefficient": 472425576236
+        },
+        {
+          "numerator": 43072,
+          "coefficient": 452442107006
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "673/1000",
+        "1347/2000"
+      ],
+      "kmax": 38326,
+      "references": [
+        {
+          "numerator": 43072,
+          "coefficient": 471844188227
+        },
+        {
+          "numerator": 43104,
+          "coefficient": 451594757268
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1347/2000",
+        "337/500"
+      ],
+      "kmax": 38222,
+      "references": [
+        {
+          "numerator": 43104,
+          "coefficient": 471262368442
+        },
+        {
+          "numerator": 43136,
+          "coefficient": 450739158512
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "337/500",
+        "1349/2000"
+      ],
+      "kmax": 38118,
+      "references": [
+        {
+          "numerator": 43136,
+          "coefficient": 470680116879
+        },
+        {
+          "numerator": 43168,
+          "coefficient": 449874961703
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1349/2000",
+        "27/40"
+      ],
+      "kmax": 38014,
+      "references": [
+        {
+          "numerator": 43168,
+          "coefficient": 470097433539
+        },
+        {
+          "numerator": 43200,
+          "coefficient": 449001796711
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "27/40",
+        "1351/2000"
+      ],
+      "kmax": 37911,
+      "references": [
+        {
+          "numerator": 43200,
+          "coefficient": 469514318421
+        },
+        {
+          "numerator": 43232,
+          "coefficient": 448119270702
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1351/2000",
+        "169/250"
+      ],
+      "kmax": 37808,
+      "references": [
+        {
+          "numerator": 43232,
+          "coefficient": 468930771527
+        },
+        {
+          "numerator": 43264,
+          "coefficient": 447226966361
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "169/250",
+        "1353/2000"
+      ],
+      "kmax": 37705,
+      "references": [
+        {
+          "numerator": 43264,
+          "coefficient": 468346792855
+        },
+        {
+          "numerator": 43296,
+          "coefficient": 446324439960
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1353/2000",
+        "677/1000"
+      ],
+      "kmax": 37603,
+      "references": [
+        {
+          "numerator": 43296,
+          "coefficient": 467762382406
+        },
+        {
+          "numerator": 43328,
+          "coefficient": 445411219236
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "677/1000",
+        "271/400"
+      ],
+      "kmax": 37500,
+      "references": [
+        {
+          "numerator": 43328,
+          "coefficient": 467177540180
+        },
+        {
+          "numerator": 43360,
+          "coefficient": 444486801057
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "271/400",
+        "339/500"
+      ],
+      "kmax": 37398,
+      "references": [
+        {
+          "numerator": 43360,
+          "coefficient": 466592266176
+        },
+        {
+          "numerator": 43392,
+          "coefficient": 443550648864
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "339/500",
+        "1357/2000"
+      ],
+      "kmax": 37296,
+      "references": [
+        {
+          "numerator": 43392,
+          "coefficient": 466006560396
+        },
+        {
+          "numerator": 43424,
+          "coefficient": 442602189839
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1357/2000",
+        "679/1000"
+      ],
+      "kmax": 37195,
+      "references": [
+        {
+          "numerator": 43424,
+          "coefficient": 465420422838
+        },
+        {
+          "numerator": 43456,
+          "coefficient": 441640811802
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "679/1000",
+        "1359/2000"
+      ],
+      "kmax": 37093,
+      "references": [
+        {
+          "numerator": 43456,
+          "coefficient": 464833853503
+        },
+        {
+          "numerator": 43488,
+          "coefficient": 440665859763
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1359/2000",
+        "17/25"
+      ],
+      "kmax": 36992,
+      "references": [
+        {
+          "numerator": 43488,
+          "coefficient": 464246852391
+        },
+        {
+          "numerator": 43520,
+          "coefficient": 439676632117
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "17/25",
+        "1361/2000"
+      ],
+      "kmax": 36891,
+      "references": [
+        {
+          "numerator": 43520,
+          "coefficient": 463659419502
+        },
+        {
+          "numerator": 43552,
+          "coefficient": 438672376425
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1361/2000",
+        "681/1000"
+      ],
+      "kmax": 36790,
+      "references": [
+        {
+          "numerator": 43552,
+          "coefficient": 463071554835
+        },
+        {
+          "numerator": 43584,
+          "coefficient": 437652284723
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "681/1000",
+        "1363/2000"
+      ],
+      "kmax": 36689,
+      "references": [
+        {
+          "numerator": 43584,
+          "coefficient": 462483258391
+        },
+        {
+          "numerator": 43616,
+          "coefficient": 436615488309
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1363/2000",
+        "341/500"
+      ],
+      "kmax": 36589,
+      "references": [
+        {
+          "numerator": 43616,
+          "coefficient": 461894530170
+        },
+        {
+          "numerator": 43648,
+          "coefficient": 435561051924
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "341/500",
+        "273/400"
+      ],
+      "kmax": 36489,
+      "references": [
+        {
+          "numerator": 43648,
+          "coefficient": 461305370172
+        },
+        {
+          "numerator": 43680,
+          "coefficient": 434487967258
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "273/400",
+        "683/1000"
+      ],
+      "kmax": 36389,
+      "references": [
+        {
+          "numerator": 43680,
+          "coefficient": 460715778396
+        },
+        {
+          "numerator": 43712,
+          "coefficient": 433395145681
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "683/1000",
+        "1367/2000"
+      ],
+      "kmax": 36289,
+      "references": [
+        {
+          "numerator": 43712,
+          "coefficient": 460125754844
+        },
+        {
+          "numerator": 43744,
+          "coefficient": 432281410076
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1367/2000",
+        "171/250"
+      ],
+      "kmax": 36190,
+      "references": [
+        {
+          "numerator": 43744,
+          "coefficient": 459535299514
+        },
+        {
+          "numerator": 43776,
+          "coefficient": 431145485675
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "171/250",
+        "1369/2000"
+      ],
+      "kmax": 36091,
+      "references": [
+        {
+          "numerator": 43776,
+          "coefficient": 458944412407
+        },
+        {
+          "numerator": 43808,
+          "coefficient": 429985989719
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1369/2000",
+        "137/200"
+      ],
+      "kmax": 35991,
+      "references": [
+        {
+          "numerator": 43808,
+          "coefficient": 458353093523
+        },
+        {
+          "numerator": 43840,
+          "coefficient": 428801419775
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "137/200",
+        "1371/2000"
+      ],
+      "kmax": 35893,
+      "references": [
+        {
+          "numerator": 43840,
+          "coefficient": 457761342861
+        },
+        {
+          "numerator": 43872,
+          "coefficient": 427590140516
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1371/2000",
+        "343/500"
+      ],
+      "kmax": 35794,
+      "references": [
+        {
+          "numerator": 43872,
+          "coefficient": 457169160423
+        },
+        {
+          "numerator": 43904,
+          "coefficient": 426350368696
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "343/500",
+        "1373/2000"
+      ],
+      "kmax": 35696,
+      "references": [
+        {
+          "numerator": 43904,
+          "coefficient": 456576546207
+        },
+        {
+          "numerator": 43936,
+          "coefficient": 425080156046
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1373/2000",
+        "687/1000"
+      ],
+      "kmax": 35597,
+      "references": [
+        {
+          "numerator": 43936,
+          "coefficient": 455983500214
+        },
+        {
+          "numerator": 43968,
+          "coefficient": 423777369747
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "687/1000",
+        "11/16"
+      ],
+      "kmax": 35499,
+      "references": [
+        {
+          "numerator": 43968,
+          "coefficient": 455390022443
+        },
+        {
+          "numerator": 44000,
+          "coefficient": 422439670053
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "11/16",
+        "86/125"
+      ],
+      "kmax": 35402,
+      "references": [
+        {
+          "numerator": 44000,
+          "coefficient": 454796112896
+        },
+        {
+          "numerator": 44032,
+          "coefficient": 421064484588
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "86/125",
+        "1377/2000"
+      ],
+      "kmax": 35304,
+      "references": [
+        {
+          "numerator": 44032,
+          "coefficient": 454201771571
+        },
+        {
+          "numerator": 44064,
+          "coefficient": 419648978716
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1377/2000",
+        "689/1000"
+      ],
+      "kmax": 35207,
+      "references": [
+        {
+          "numerator": 44064,
+          "coefficient": 453606998469
+        },
+        {
+          "numerator": 44096,
+          "coefficient": 418190021260
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "689/1000",
+        "1379/2000"
+      ],
+      "kmax": 35110,
+      "references": [
+        {
+          "numerator": 44096,
+          "coefficient": 453011793590
+        },
+        {
+          "numerator": 44128,
+          "coefficient": 416684144708
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1379/2000",
+        "69/100"
+      ],
+      "kmax": 35013,
+      "references": [
+        {
+          "numerator": 44128,
+          "coefficient": 452416156934
+        },
+        {
+          "numerator": 44160,
+          "coefficient": 415127498844
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "kmax": 34916,
+      "references": [
+        {
+          "numerator": 44160,
+          "coefficient": 451820088500
+        },
+        {
+          "numerator": 44192,
+          "coefficient": 413515796481
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1381/2000",
+        "691/1000"
+      ],
+      "kmax": 34820,
+      "references": [
+        {
+          "numerator": 44192,
+          "coefficient": 451223588290
+        },
+        {
+          "numerator": 44224,
+          "coefficient": 411844249712
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "691/1000",
+        "1383/2000"
+      ],
+      "kmax": 34723,
+      "references": [
+        {
+          "numerator": 44224,
+          "coefficient": 450626656302
+        },
+        {
+          "numerator": 44256,
+          "coefficient": 410107494670
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1383/2000",
+        "173/250"
+      ],
+      "kmax": 34627,
+      "references": [
+        {
+          "numerator": 44256,
+          "coefficient": 450029292536
+        },
+        {
+          "numerator": 44288,
+          "coefficient": 408299502312
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "173/250",
+        "277/400"
+      ],
+      "kmax": 34531,
+      "references": [
+        {
+          "numerator": 44288,
+          "coefficient": 449431496994
+        },
+        {
+          "numerator": 44320,
+          "coefficient": 406413472106
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "277/400",
+        "693/1000"
+      ],
+      "kmax": 34436,
+      "references": [
+        {
+          "numerator": 44320,
+          "coefficient": 448833269675
+        },
+        {
+          "numerator": 44352,
+          "coefficient": 404441704680
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "693/1000",
+        "1387/2000"
+      ],
+      "kmax": 34340,
+      "references": [
+        {
+          "numerator": 44352,
+          "coefficient": 448234610578
+        },
+        {
+          "numerator": 44384,
+          "coefficient": 402375448405
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1387/2000",
+        "347/500"
+      ],
+      "kmax": 34245,
+      "references": [
+        {
+          "numerator": 44384,
+          "coefficient": 447635519704
+        },
+        {
+          "numerator": 44416,
+          "coefficient": 400204713495
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "347/500",
+        "1389/2000"
+      ],
+      "kmax": 34150,
+      "references": [
+        {
+          "numerator": 44416,
+          "coefficient": 447035997053
+        },
+        {
+          "numerator": 44448,
+          "coefficient": 397918045300
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1389/2000",
+        "139/200"
+      ],
+      "kmax": 34055,
+      "references": [
+        {
+          "numerator": 44448,
+          "coefficient": 446436042624
+        },
+        {
+          "numerator": 44480,
+          "coefficient": 395502245966
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "139/200",
+        "1391/2000"
+      ],
+      "kmax": 33961,
+      "references": [
+        {
+          "numerator": 44480,
+          "coefficient": 445835656419
+        },
+        {
+          "numerator": 44512,
+          "coefficient": 392942030240
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1391/2000",
+        "87/125"
+      ],
+      "kmax": 33866,
+      "references": [
+        {
+          "numerator": 44512,
+          "coefficient": 445234838436
+        },
+        {
+          "numerator": 44544,
+          "coefficient": 390219596504
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "87/125",
+        "1393/2000"
+      ],
+      "kmax": 33772,
+      "references": [
+        {
+          "numerator": 44544,
+          "coefficient": 444633588676
+        },
+        {
+          "numerator": 44576,
+          "coefficient": 387314087720
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1393/2000",
+        "697/1000"
+      ],
+      "kmax": 33678,
+      "references": [
+        {
+          "numerator": 44576,
+          "coefficient": 444031907139
+        },
+        {
+          "numerator": 44608,
+          "coefficient": 384200907907
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "697/1000",
+        "279/400"
+      ],
+      "kmax": 33584,
+      "references": [
+        {
+          "numerator": 44608,
+          "coefficient": 443429793824
+        },
+        {
+          "numerator": 44640,
+          "coefficient": 380850847013
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "279/400",
+        "349/500"
+      ],
+      "kmax": 33491,
+      "references": [
+        {
+          "numerator": 44640,
+          "coefficient": 442827248733
+        },
+        {
+          "numerator": 44672,
+          "coefficient": 377228948625
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "349/500",
+        "1397/2000"
+      ],
+      "kmax": 33397,
+      "references": [
+        {
+          "numerator": 44672,
+          "coefficient": 442224271864
+        },
+        {
+          "numerator": 44704,
+          "coefficient": 373293028142
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1397/2000",
+        "699/1000"
+      ],
+      "kmax": 33304,
+      "references": [
+        {
+          "numerator": 44704,
+          "coefficient": 441620863218
+        },
+        {
+          "numerator": 44736,
+          "coefficient": 368991709216
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "699/1000",
+        "1399/2000"
+      ],
+      "kmax": 33211,
+      "references": [
+        {
+          "numerator": 44736,
+          "coefficient": 441017022795
+        },
+        {
+          "numerator": 44768,
+          "coefficient": 364261786168
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    },
+    {
+      "interval": [
+        "1399/2000",
+        "7/10"
+      ],
+      "kmax": 33118,
+      "references": [
+        {
+          "numerator": 44768,
+          "coefficient": 440412750594
+        },
+        {
+          "numerator": 44800,
+          "coefficient": 359024627605
+        }
+      ],
+      "gram_for_k5": false,
+      "initial_missing": [],
+      "repairs": []
+    }
+  ],
+  "seconds": 8.23499999998603
+}
